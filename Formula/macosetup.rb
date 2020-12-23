@@ -11,12 +11,15 @@ class Macosetup < Formula
   bottle :unneeded
 
   def install
+    bin.install "macosetup"
+    pkgetc.install "config.d"
+    pkgetc.install "file.d"
+    pkgetc.install "local.d"
     pkgshare.install "applications"
     pkgshare.install "homebrew"
     pkgshare.install "misc"
     pkgshare.install "shell"
     pkgshare.install "system_preferences"
-    bin.install "macosetup"
   end
 
   test do

@@ -1,10 +1,10 @@
 # dothier homebrew formula
 class Dothier < Formula
   desc "Dotfiles management with dothier"
-  homepage "https://github.com/sh0shin/dothier"
+  homepage "https://sh0shin.org/dothier"
   # dothier using github tags
-  url "https://github.com/sh0shin/dothier/archive/v0.0.6.tar.gz"
-  sha256 "c20fed367c304605220c84e12aa8b2e72959be1d6da96e0881f2c0bcb0e72b57"
+  url "https://github.com/sh0shin/dothier/archive/v0.0.7.tar.gz"
+  sha256 "1bdf0132a53eb4d05cdaa6b4ff9e8512787150d9eee4420db48a2842e95a12f7"
   license "BSD-3-Clause"
   head "https://github.com/sh0shin/dothier.git"
 

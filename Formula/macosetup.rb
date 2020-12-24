@@ -6,7 +6,7 @@ class Macosetup < Formula
   #url "https://github.com/sh0shin/macosetup/archive/v0.0.1.tar.gz"
   #sha256 ""
   license "BSD-3-Clause"
-  head "https://github.com/sh0shin/macosetup.git", branch: "devel-msx"
+  head "https://github.com/sh0shin/macosetup.git", branch: "devel"
 
   bottle :unneeded
 

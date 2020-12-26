@@ -14,7 +14,6 @@ class Macosetup < Formula
     bin.install "macosetup"
     pkgetc.install "etc/default.cfg"
     pkgshare.install "share/applications"
-    pkgshare.install "share/files"
     pkgshare.install "share/homebrew"
     pkgshare.install "share/misc"
     pkgshare.install "share/shell"

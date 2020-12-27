@@ -6,7 +6,7 @@ class Macosetup < Formula
   #url "https://github.com/sh0shin/macosetup/archive/v0.0.1.tar.gz"
   #sha256 ""
   license "BSD-3-Clause"
-  head "https://github.com/sh0shin/macosetup.git", branch: "devel-msx"
+  head "https://github.com/sh0shin/macosetup.git"
 
   bottle :unneeded
 
@@ -14,7 +14,6 @@ class Macosetup < Formula
     bin.install "macosetup"
     pkgetc.install "etc/default.cfg"
     pkgshare.install "share/applications"
-    pkgshare.install "share/files"
     pkgshare.install "share/homebrew"
     pkgshare.install "share/misc"
     pkgshare.install "share/shell"

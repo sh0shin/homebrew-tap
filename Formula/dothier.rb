@@ -12,6 +12,8 @@ class Dothier < Formula
 
   def install
     bin.install "dothier"
+    pkgshare.install "git_src.sample"
+    pkgshare.install "hier.sample"
   end
 
   test do

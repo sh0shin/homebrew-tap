@@ -4,7 +4,7 @@ class Dothier < Formula
   homepage "https://sh0shin.org/dothier"
   # dothier using github tags
   url "https://github.com/sh0shin/dothier/archive/v0.1.4-beta.tar.gz"
-  sha256 "4e5c830842094c97bd87cf679ffdd78b7ba69e5d8fd7783b8abbb8e9455187a6"
+  sha256 "418a1373aba97e39123308dbc53a96f96f8f1d1fd9abf16eddeaf560f072f1cd"
   license "BSD-3-Clause"
   head "https://github.com/sh0shin/dothier.git"
 

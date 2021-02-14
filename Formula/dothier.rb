@@ -7,12 +7,14 @@ class Dothier < Formula
   sha256 "7fa8ce47a967941c0381075913c4b42e42e1a458640a4c5cd527f9f58ec22cc3"
   license "BSD-3-Clause"
   head "https://github.com/sh0shin/dothier.git"
+  revision 1
 
   bottle :unneeded
 
   def install
     bin.install "dothier"
     pkgshare.install "README.md"
+    pkgshare.install "dothier.config-sample"
     pkgshare.install "gitsrc.sample"
     pkgshare.install "hier.sample"
   end

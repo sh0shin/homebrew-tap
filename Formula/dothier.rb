@@ -3,8 +3,8 @@ class Dothier < Formula
   desc "Dotfiles management with dothier"
   homepage "https://sh0shin.org/dothier"
   # dothier using github tags
-  url "https://github.com/sh0shin/dothier/archive/v0.2.6.tar.gz"
-  sha256 "865013f78b92d0de163918929b2b2f20df04c9de8171741531984eafd9e78944"
+  url "https://github.com/sh0shin/dothier/archive/v0.2.7.tar.gz"
+  sha256 "a1e5e7a91306e40d3df50a44cd9ad3f9ccad2537c3b4d8f65670b0a7dce8ae3f"
   license "BSD-3-Clause"
   head "https://github.com/sh0shin/dothier.git"
   revision 0

@@ -9,8 +9,6 @@ class Dothier < Formula
   head "https://github.com/sh0shin/dothier.git"
   revision 0
 
-  bottle :unneeded
-
   def install
     bin.install "dothier"
     pkgshare.install "README.md"

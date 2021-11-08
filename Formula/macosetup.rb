@@ -8,8 +8,6 @@ class Macosetup < Formula
   license "BSD-3-Clause"
   head "https://github.com/sh0shin/macosetup.git"
 
-  bottle :unneeded
-
   def install
     bin.install "macosetup"
     pkgetc.install "etc/default.cfg"

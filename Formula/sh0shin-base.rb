@@ -7,7 +7,7 @@ class Sh0shinBase < Formula
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
   license "BSD-3-Clause"
   version "1"
-  revision 0
+  revision 1
 
   depends_on "bash"
   depends_on "bash-completion@2"

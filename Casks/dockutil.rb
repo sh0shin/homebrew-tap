@@ -11,4 +11,8 @@ cask "dockutil" do
 
   uninstall delete:   "/usr/local/bin/dockutil",
             pkgutil:  "dockutil.cli.tool"
+
+  caveats do
+    license "https://www.apache.org/licenses/LICENSE-2.0"
+  end
 end

@@ -15,6 +15,7 @@ class Sh0shinDevel < Formula
   depends_on "pre-commit"
   depends_on "tig"
 
+  depends_on "editorconfig-checker"
   depends_on "hadolint"
   depends_on "markdownlint-cli"
   depends_on "shellcheck"

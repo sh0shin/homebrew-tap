@@ -7,7 +7,7 @@ class Sh0shinDevel < Formula
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
   license "BSD-3-Clause"
   version "1"
-  revision 0
+  revision 1
 
   depends_on "git"
   depends_on "git-crypt"
